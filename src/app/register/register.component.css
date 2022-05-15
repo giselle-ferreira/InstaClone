@@ -85,6 +85,10 @@
   display: none;
 }
 
+.metaLogo {
+  display: none;
+}
+
 @media only screen and (max-width: 1000px) {
   .celPhone {
     display: none;
@@ -99,5 +103,14 @@
     background: none;
     box-shadow: none;
   }  
+
+  .metaLogo {
+    margin-top: 33px;
+    display: block;
+  }
+
+  .instaName {
+    margin-bottom: 25px;
+  }
 
 }
