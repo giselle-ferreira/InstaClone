@@ -1,0 +1,109 @@
+.example-full-width {
+  width: 100%;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.formLogin {
+  width: 380px;
+  height: 580px;
+  border-radius: 1.3rem;
+  background: rgba(255, 255, 255, 0.07);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.celPhone {
+  z-index: 1;
+}
+
+.instaIcon {
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.links {
+  font-size: .72rem;
+  display: flex;
+  justify-content: between;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: .4;
+}
+
+::placeholder:active {
+  background: transparent;
+}
+
+.btn-facebook {
+  background-color: #4267B2;
+  color: #fff;
+  box-shadow: 1px 1px 3px #555;
+}
+
+.btn-facebook:hover {
+  background-color: #6d8bc7;
+}
+
+.btn-facebook:active {
+  transform: scale(.95);
+  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.25);
+  animation: ease-in-out;
+}
+
+.btn-loginRegister {
+  background-color: #24A0ED;
+  color: #fff;
+  box-shadow: 1px 1px 3px #555;
+}
+
+.btn-loginRegister:hover {
+  background-color: #68bff5;
+}
+
+.btn-loginRegister:active {
+  transform: scale(.95);
+  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.25);
+  animation: ease-in-out;
+}
+
+.form-control:valid {
+ background: transparent !important;
+} 
+
+.instaIcon_mobile {
+  display: none;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .celPhone {
+    display: none;
+  }
+
+  .formLogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    background: none;
+    box-shadow: none;
+  }  
+
+}
+
