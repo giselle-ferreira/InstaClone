@@ -14,6 +14,7 @@ const app = express();
 const appName = 'insta-newversion';
 
 // where build will generate the files
+const outputPath = `${__dirname}/dist/${appName}`
 
 // setting build file to serve the angular content
 app.use(express.static(outputPath));
