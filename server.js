@@ -11,7 +11,7 @@ const fileURLToPath = require('url')
 const app = express();
 
 // Project name
-const appName = 'insta-newversion';
+const appName = 'insta-clone';
 
 // where build will generate the files
 const outputPath = `${__dirname}/dist/${appName}`
