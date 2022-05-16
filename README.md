@@ -8,7 +8,7 @@ Instagram Front Page Clone designed primarily with Figma and developed in Angula
 <br/>
 
 >## Deploy
-<a href="https://insta-newversion.herokuapp.com/">InstaClone - HerokuApp</a>
+<a target="_blank" href="https://insta-newversion.herokuapp.com/">InstaClone - HerokuApp</a>
 
 <br/>
 
