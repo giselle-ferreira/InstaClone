@@ -3,7 +3,7 @@
 <br/>
 
 >## About
-Instagram Front Page Clone designed primarily with Figma and developed in Angular 13 and Bootstrap 5, and Express and Heroku to Deploy.
+Instagram Front Page Clone designed primarily with Figma and developed in Angular 13 and Bootstrap 5, and deployed with Express and Heroku.
 
 <br/>
 
