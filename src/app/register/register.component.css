@@ -50,6 +50,7 @@
 }
 
 .btn-facebook {
+  margin-top: 25px;
   background-color: #4267B2;
   color: #fff;
   box-shadow: 1px 1px 3px #555;
@@ -110,7 +111,14 @@
   }
 
   .instaName {
-    margin-bottom: 25px;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
+
+  .btn-facebook {
+    margin-top: 25%;
+  } 
 
 }

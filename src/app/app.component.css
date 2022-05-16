@@ -6,8 +6,8 @@ html {
 .bgImg {
   position: fixed;
   top: 0;
-  left: 0;  
-  min-width: 10vw;
+  right: 0;  
+  min-width: 100vw;
   min-height: 100vh;
   background-size: cover;
   z-index: -1;
@@ -24,6 +24,7 @@ html {
   display: none;
 }
 
+
 @media only screen and (max-width: 1000px) {
   .instaIcon {
     display: none;
@@ -32,11 +33,13 @@ html {
 
 @media only screen and (max-width: 500px) {
   .instaIcon_mobile {
-    display: unset;
+    display: block;
     position: absolute;
     top: 0;
     left: 0;
   }
+
+  
 }
 
 
